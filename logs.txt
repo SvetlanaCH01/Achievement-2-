@@ -1,0 +1,20 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 658-337-454
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2024 21:39:14] "GET / HTTP/1.1" 200 -
+ERROR:root:Error: The number 5 is less than a previously processed number.
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2024 21:39:22] "[31m[1mPOST /process_number HTTP/1.1[0m" 400 -
+ERROR:root:Error: The number 6 has already been processed.
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2024 21:39:27] "[31m[1mPOST /process_number HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2024 21:39:31] "POST /process_number HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2024 21:39:35] "POST /process_number HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2024 21:39:39] "POST /process_number HTTP/1.1" 200 -
+ERROR:root:Error: The number 9 is less than a previously processed number.
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2024 21:39:43] "[31m[1mPOST /process_number HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\Учеба\\Магистратура\\2 курс 1 семестр\\Achievement2\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 658-337-454
