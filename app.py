@@ -61,5 +61,6 @@ def home():
     return "Server is running!"
 
 if __name__ == '__main__':
+    port = os.getenv("FLASK_APP_PORT", 5001)  # по умолчанию 5001
     print("Flask is starting...")
     app.run(debug=True, port=5001)
